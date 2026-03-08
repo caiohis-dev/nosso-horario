@@ -31,5 +31,5 @@ jobs:
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: "/home/caio-teixeira/dev/horarios/"
+          TARGET: "/var/www/nossohorario/"
 
