@@ -28,7 +28,6 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           SSH_PORT: "2233"
           ARGS: "-rltgoDzvO --delete --rsh='ssh -p 2233 -o StrictHostKeyChecking=no'"
-          ARGS: "-rltgoDzvO --delete"
           SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
