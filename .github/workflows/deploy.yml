@@ -35,4 +35,3 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           REMOTE_PORT: "2233" # Sua porta customizada
           TARGET: ${{ secrets.REMOTE_TARGET }} # Ex: /var/www/html/projeto
-          EXCLUDE: "/node_modules/"
